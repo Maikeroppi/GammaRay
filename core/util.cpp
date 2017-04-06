@@ -30,6 +30,7 @@
 
 #include "util.h"
 #include "common/metatypedeclarations.h"
+#include "common/commonresources.h"
 #include "varianthandler.h"
 #include "objectdataprovider.h"
 #include "enumutil.h"
@@ -154,7 +155,13 @@ static IconDatabase readIconData()
     if (!qApp->inherits("QGuiApplication") && !qApp->inherits("QApplication"))
         return data;
 
-    const QString basePath = QStringLiteral(":/gammaray/classes/");
+    // This is core lib, UI resources are part of the GammaRay UI library
+    // Though classes resources are part of the GammaRay Common library
+    QString basePath = CommonResources::themedPath(QLatin1String("classes"));
+    // Fallback to default theme icons if needed
+    if (CommonResources::currentIconTheme() != CommonResources::Default && !QFile::exists(basePath)) {
+        basePath = CommonResources::themedPath(CommonResources::Default, QLatin1String("classes"));
+    }
     QDir dir(basePath);
 
     const QStringList filterList = QStringList() << QStringLiteral("*.png");

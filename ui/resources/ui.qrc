@@ -1,10 +1,57 @@
 <RCC>
-  <qresource prefix="gammaray/ui">
-    <file>measure-pixels.png</file>
-    <file>redirect-input.png</file>
-    <file>move-preview.png</file>
-    <file>pick-element.png</file>
-    <file>zoom-in.png</file>
-    <file>zoom-out.png</file>
-  </qresource>
+    <qresource prefix="/">
+        <file>gammaray/GammaRay-16x16.png</file>
+        <file>gammaray/GammaRay-32x32.png</file>
+        <file>gammaray/GammaRay-48x48.png</file>
+        <file>gammaray/GammaRay-128x128.png</file>
+        <file>gammaray/GammaRay-256x256.png</file>
+        <file>gammaray/GammaRay-512x512.png</file>
+        <file>gammaray/GammaRay.icns</file>
+        <file>gammaray/GammaRay.ico</file>
+        <file>gammaray/GammaRay-Trademark-medium.png</file>
+        <file>gammaray/GammaRay-Trademark-small.png</file>
+        <file>gammaray/kdab-gammaray-logo.png</file>
+        <file>gammaray/kdablogo160.png</file>
+        <file>gammaray/kdabproducts.png</file>
+        <file>gammaray/splashscreen.png</file>
+
+        <!-- Light icons -->
+
+        <!-- UI icons -->
+        <file>gammaray/icons/ui/light/active-focus.png</file>
+        <file>gammaray/icons/ui/light/focus.png</file>
+        <file>gammaray/icons/ui/light/grid-settings.png</file>
+        <file>gammaray/icons/ui/light/legend.png</file>
+        <file>gammaray/icons/ui/light/measure-pixels.png</file>
+        <file>gammaray/icons/ui/light/move-preview.png</file>
+        <file>gammaray/icons/ui/light/pick-element.png</file>
+        <file>gammaray/icons/ui/light/redirect-input.png</file>
+        <file>gammaray/icons/ui/light/server-decorations.png</file>
+        <file>gammaray/icons/ui/light/visualize-batches.png</file>
+        <file>gammaray/icons/ui/light/visualize-changes.png</file>
+        <file>gammaray/icons/ui/light/visualize-clipping.png</file>
+        <file>gammaray/icons/ui/light/visualize-overdraw.png</file>
+        <file>gammaray/icons/ui/light/visualize-traces.png</file>
+        <file>gammaray/icons/ui/light/warning.png</file>
+        <file>gammaray/icons/ui/light/zoom-in.png</file>
+        <file>gammaray/icons/ui/light/zoom-out.png</file>
+
+        <!-- Dark icons -->
+
+        <!-- UI icons -->
+        <file>gammaray/icons/ui/dark/grid-settings.png</file>
+        <file>gammaray/icons/ui/dark/legend.png</file>
+        <file>gammaray/icons/ui/dark/measure-pixels.png</file>
+        <file>gammaray/icons/ui/dark/move-preview.png</file>
+        <file>gammaray/icons/ui/dark/pick-element.png</file>
+        <file>gammaray/icons/ui/dark/redirect-input.png</file>
+        <file>gammaray/icons/ui/dark/server-decorations.png</file>
+        <file>gammaray/icons/ui/dark/visualize-batches.png</file>
+        <file>gammaray/icons/ui/dark/visualize-changes.png</file>
+        <file>gammaray/icons/ui/dark/visualize-clipping.png</file>
+        <file>gammaray/icons/ui/dark/visualize-overdraw.png</file>
+        <file>gammaray/icons/ui/dark/visualize-traces.png</file>
+        <file>gammaray/icons/ui/dark/zoom-in.png</file>
+        <file>gammaray/icons/ui/dark/zoom-out.png</file>
+    </qresource>
 </RCC>

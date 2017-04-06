@@ -19,6 +19,7 @@ set(gammaray_common_srcs
   selflocator.cpp
   sourcelocation.cpp
   translator.cpp
+  commonresources.cpp
 
   enumdefinition.cpp
   enumrepository.cpp
@@ -36,6 +37,8 @@ elseif(UNIX)
 elseif(WIN32)
     list(APPEND gammaray_common_srcs processtracker_windows.cpp)
 endif()
+
+qt4_add_resources(gammaray_common_srcs resources/common.qrc)
 
 add_library(gammaray_common ${GAMMARAY_LIBRARY_TYPE} ${gammaray_common_srcs})
 generate_export_header(gammaray_common)
@@ -113,6 +116,7 @@ if(NOT GAMMARAY_PROBE_ONLY_BUILD)
     protocol.h
     sourcelocation.h
     translator.h
+    commonresources.h
   )
 
   ecm_generate_pri_file(BASE_NAME GammaRayCommon

@@ -32,6 +32,7 @@
 #include "gridsettingswidget.h"
 
 #include <common/streamoperators.h>
+#include <ui/uiresources.h>
 
 #include <QDebug>
 #include <QMouseEvent>
@@ -70,8 +71,7 @@ QuickScenePreviewWidget::QuickScenePreviewWidget(QuickInspectorInterface *inspec
     m_toolBar.visualizeGroup->setExclusive(false); // we need 0 or 1 selected, not exactly 1
 
     m_toolBar.visualizeClipping
-        = new QAction(QIcon(QStringLiteral(
-                                ":/gammaray/plugins/quickinspector/visualize-clipping.png")),
+        = new QAction(UIResources::themedIcon(QLatin1String("visualize-clipping.png")),
                       tr("Visualize Clipping"),
                       this);
     m_toolBar.visualizeClipping->setActionGroup(m_toolBar.visualizeGroup);
@@ -85,8 +85,7 @@ QuickScenePreviewWidget::QuickScenePreviewWidget(QuickInspectorInterface *inspec
                                                "enabled, so you can check for items, that have clipping enabled unnecessarily. "));
 
     m_toolBar.visualizeOverdraw
-        = new QAction(QIcon(QStringLiteral(
-                                ":/gammaray/plugins/quickinspector/visualize-overdraw.png")),
+        = new QAction(UIResources::themedIcon(QLatin1String("visualize-overdraw.png")),
                       tr("Visualize Overdraw"),
                       this);
     m_toolBar.visualizeOverdraw->setActionGroup(m_toolBar.visualizeGroup);
@@ -101,8 +100,7 @@ QuickScenePreviewWidget::QuickScenePreviewWidget(QuickInspectorInterface *inspec
                                                "layers of items that are drawn."));
 
     m_toolBar.visualizeBatches
-        = new QAction(QIcon(QStringLiteral(
-                                ":/gammaray/plugins/quickinspector/visualize-batches.png")),
+        = new QAction(UIResources::themedIcon(QLatin1String("visualize-batches.png")),
                       tr("Visualize Batches"), this);
     m_toolBar.visualizeBatches->setActionGroup(m_toolBar.visualizeGroup);
     m_toolBar.visualizeBatches->setData(QuickInspectorInterface::VisualizeBatches);
@@ -119,8 +117,7 @@ QuickScenePreviewWidget::QuickScenePreviewWidget(QuickInspectorInterface *inspec
                                               "the same color. The fewer colors you see in this mode the better."));
 
     m_toolBar.visualizeChanges
-        = new QAction(QIcon(QStringLiteral(
-                                ":/gammaray/plugins/quickinspector/visualize-changes.png")),
+        = new QAction(UIResources::themedIcon(QLatin1String("visualize-changes.png")),
                       tr("Visualize Changes"), this);
     m_toolBar.visualizeChanges->setActionGroup(m_toolBar.visualizeGroup);
     m_toolBar.visualizeChanges->setData(QuickInspectorInterface::VisualizeChanges);
@@ -133,8 +130,7 @@ QuickScenePreviewWidget::QuickScenePreviewWidget(QuickInspectorInterface *inspec
 
 
     m_toolBar.visualizeTraces
-        = new QAction(QIcon(QStringLiteral(
-                                ":/gammaray/plugins/quickinspector/visualize-traces.png")),
+        = new QAction(UIResources::themedIcon(QLatin1String("visualize-traces.png")),
                       tr("Visualize Traces"), this);
     m_toolBar.visualizeTraces->setActionGroup(m_toolBar.visualizeGroup);
     m_toolBar.visualizeTraces->setData(QuickInspectorInterface::VisualizeTraces);
@@ -144,8 +140,7 @@ QuickScenePreviewWidget::QuickScenePreviewWidget(QuickInspectorInterface *inspec
                                              "cover any QQ2 components. Overlay include random border and foreground "
                                              "colors as well as item id string."));
 
-    m_toolBar.serverSideDecorationsEnabled = new QAction(QIcon(QStringLiteral(
-                                                               ":/gammaray/plugins/quickinspector/decorations.png")),
+    m_toolBar.serverSideDecorationsEnabled = new QAction(UIResources::themedIcon(QLatin1String("server-decorations.png")),
                                                      tr("Target Decorations"), this);
     m_toolBar.serverSideDecorationsEnabled->setCheckable(true);
     m_toolBar.serverSideDecorationsEnabled->setToolTip(tr("<b>Target Decorations</b><br>"
@@ -155,8 +150,7 @@ QuickScenePreviewWidget::QuickScenePreviewWidget(QuickInspectorInterface *inspec
     gridSettingsAction->setDefaultWidget(m_gridSettingsWidget);
 
     m_toolBar.gridSettings = new QMenu(tr("Grid Settings"), this);
-    m_toolBar.gridSettings->setIcon(QIcon(QStringLiteral(
-                                              ":/gammaray/plugins/quickinspector/grid-settings.png")));
+    m_toolBar.gridSettings->setIcon(UIResources::themedIcon(QLatin1String("grid-settings.png")));
     m_toolBar.gridSettings->setToolTip(tr("<b>Grid Settings</b><br>"
                                               "This popup a small widget to configure the grid settings."));
     m_toolBar.gridSettings->setToolTipsVisible(true);

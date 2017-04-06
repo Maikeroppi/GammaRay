@@ -1,0 +1,79 @@
+<RCC>
+    <qresource prefix="/">
+        <!-- Light icons -->
+
+        <!-- QtQuick 2 class icons -->
+        <file alias="gammaray/icons/ui/light/classes/QQuickBorderImage/default.png">gammaray/icons/ui/light/classes/qtquick2/border-image-icon16.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QQuickFlickable/default.png">gammaray/icons/ui/light/classes/qtquick2/flickable-icon16.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QQuickFlipable/default.png">gammaray/icons/ui/light/classes/qtquick2/flipable-icon16.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QQuickFocusScope/default.png">gammaray/icons/ui/light/classes/qtquick2/focusscope-icon16.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QQuickGridView/default.png">gammaray/icons/ui/light/classes/qtquick2/gridview-icon16.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QQuickImage/default.png">gammaray/icons/ui/light/classes/qtquick2/image-icon16.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QQuickItem/default.png">gammaray/icons/ui/light/classes/qtquick2/item-icon16.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QQuickListView/default.png">gammaray/icons/ui/light/classes/qtquick2/listview-icon16.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QQuickMouseArea/default.png">gammaray/icons/ui/light/classes/qtquick2/mouse-area-icon16.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QQuickPathView/default.png">gammaray/icons/ui/light/classes/qtquick2/pathview-icon16.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QQuickRectangle/default.png">gammaray/icons/ui/light/classes/qtquick2/rect-icon16.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QQuickTextEdit/default.png">gammaray/icons/ui/light/classes/qtquick2/text-edit-icon16.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QQuickText/default.png">gammaray/icons/ui/light/classes/qtquick2/text-icon16.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QQuickTextInput/default.png">gammaray/icons/ui/light/classes/qtquick2/text-input-icon16.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QQuickWebView/default.png">gammaray/icons/ui/light/classes/qtquick2/webview-icon16.png</file>
+
+        <!-- QtWidgets class icons -->
+        <file alias="gammaray/icons/ui/light/classes/QDateTimeEdit/default.png">gammaray/icons/ui/light/classes/qtwidgets/datetimeedit.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QTextEdit/default.png">gammaray/icons/ui/light/classes/qtwidgets/textedit.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QCalendarWidget/default.png">gammaray/icons/ui/light/classes/qtwidgets/calendarwidget.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QProgressBar/default.png">gammaray/icons/ui/light/classes/qtwidgets/progress.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QAbstractScrollArea/default.png">gammaray/icons/ui/light/classes/qtwidgets/scrollarea.png</file>
+<!--        <file>gammaray/icons/ui/light/classes/qtwidgets/spacer.png</file> -->
+        <file alias="gammaray/icons/ui/light/classes/QLineEdit/default.png">gammaray/icons/ui/light/classes/qtwidgets/lineedit.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QDockWidget/default.png">gammaray/icons/ui/light/classes/qtwidgets/dockwidget.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QScrollBar/default.png">gammaray/icons/ui/light/classes/qtwidgets/vscrollbar.png</file>
+<!--        <file>gammaray/icons/ui/light/classes/qtwidgets/groupboxcollapsible.png</file> -->
+        <file alias="gammaray/icons/ui/light/classes/QComboBox/default.png">gammaray/icons/ui/light/classes/qtwidgets/combobox.png</file>
+<!--        <file>gammaray/icons/ui/light/classes/qtwidgets/line.png</file> -->
+<!--        <file>gammaray/icons/ui/light/classes/qtwidgets/hsplit.png</file> -->
+        <file alias="gammaray/icons/ui/light/classes/QCommandLinkButton/default.png">gammaray/icons/ui/light/classes/qtwidgets/commandlinkbutton.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QWizard/default.png">gammaray/icons/ui/light/classes/qtwidgets/wizard.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QWidget/default.png">gammaray/icons/ui/light/classes/qtwidgets/widget.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QSpinBox/default.png">gammaray/icons/ui/light/classes/qtwidgets/spinbox.png</file>
+<!--        <file>gammaray/icons/ui/light/classes/qtwidgets/vline.png</file> -->
+        <file alias="gammaray/icons/ui/light/classes/QScrollBar/orientation=Horizontal.png">gammaray/icons/ui/light/classes/qtwidgets/hscrollbar.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QCheckBox/default.png">gammaray/icons/ui/light/classes/qtwidgets/checkbox.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QTabWidget/default.png">gammaray/icons/ui/light/classes/qtwidgets/tabwidget.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QDateEdit/default.png">gammaray/icons/ui/light/classes/qtwidgets/dateedit.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QLabel/default.png">gammaray/icons/ui/light/classes/qtwidgets/label.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QListView/default.png">gammaray/icons/ui/light/classes/qtwidgets/listbox.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QColumnView/default.png">gammaray/icons/ui/light/classes/qtwidgets/columnview.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QDial/default.png">gammaray/icons/ui/light/classes/qtwidgets/dial.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QFrame/default.png">gammaray/icons/ui/light/classes/qtwidgets/frame.png</file>
+<!--        <file>gammaray/icons/ui/light/classes/qtwidgets/vspacer.png</file> -->
+        <file alias="gammaray/icons/ui/light/classes/QTabBar/default.png">gammaray/icons/ui/light/classes/qtwidgets/tabbar.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QSlider/default.png">gammaray/icons/ui/light/classes/qtwidgets/hslider.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QGroupBox/default.png">gammaray/icons/ui/light/classes/qtwidgets/groupbox.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QGraphicsView/default.png">gammaray/icons/ui/light/classes/qtwidgets/graphicsview.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QMdiArea/default.png">gammaray/icons/ui/light/classes/qtwidgets/mdiarea.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QFontComboBox/default.png">gammaray/icons/ui/light/classes/qtwidgets/fontcombobox.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QDialogButtonBox/default.png">gammaray/icons/ui/light/classes/qtwidgets/dialogbuttonbox.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QToolBox/default.png">gammaray/icons/ui/light/classes/qtwidgets/toolbox.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QTimeEdit/default.png">gammaray/icons/ui/light/classes/qtwidgets/timeedit.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QPlainTextEdit/default.png">gammaray/icons/ui/light/classes/qtwidgets/plaintextedit.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QSlider/orientation=Vertical.png">gammaray/icons/ui/light/classes/qtwidgets/vslider.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QDoubleSpinBox/default.png">gammaray/icons/ui/light/classes/qtwidgets/doublespinbox.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QLCDNumber/default.png">gammaray/icons/ui/light/classes/qtwidgets/lcdnumber.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QToolButton/default.png">gammaray/icons/ui/light/classes/qtwidgets/toolbutton.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QTableView/default.png">gammaray/icons/ui/light/classes/qtwidgets/table.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QStackedWidget/default.png">gammaray/icons/ui/light/classes/qtwidgets/widgetstack.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QRadioButton/default.png">gammaray/icons/ui/light/classes/qtwidgets/radiobutton.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QPushButton/default.png">gammaray/icons/ui/light/classes/qtwidgets/pushbutton.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QAbstractItemView/default.png">gammaray/icons/ui/light/classes/qtwidgets/listview.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QSplitter/orientation=Horizontal.png">gammaray/icons/ui/light/classes/qtwidgets/edithlayoutsplit.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QHBoxLayout/default.png">gammaray/icons/ui/light/classes/qtwidgets/edithlayout.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QGridLayout/default.png">gammaray/icons/ui/light/classes/qtwidgets/editgrid.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QSplitter/default.png">gammaray/icons/ui/light/classes/qtwidgets/editvlayoutsplit.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QVBoxLayout/default.png">gammaray/icons/ui/light/classes/qtwidgets/editvlayout.png</file>
+        <file alias="gammaray/icons/ui/light/classes/QFormLayout/default.png">gammaray/icons/ui/light/classes/qtwidgets/editform.png</file>
+
+        <!-- Dark icons -->
+    </qresource>
+</RCC>
