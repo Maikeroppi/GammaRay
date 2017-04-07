@@ -66,6 +66,9 @@ QuickScenePreviewWidget::QuickScenePreviewWidget(QuickInspectorInterface *inspec
     // Toolbar
     m_toolBar.toolbarWidget = new QToolBar(this);
     m_toolBar.toolbarWidget->setAutoFillBackground(true);
+    // Our icons are 16x16 and support hidpi, so let force iconSize on every styles
+    m_toolBar.toolbarWidget->setIconSize(QSize(16, 16));
+    m_toolBar.toolbarWidget->setToolButtonStyle(Qt::ToolButtonIconOnly);
 
     m_toolBar.visualizeGroup = new QActionGroup(this);
     m_toolBar.visualizeGroup->setExclusive(false); // we need 0 or 1 selected, not exactly 1
@@ -174,6 +177,8 @@ QuickScenePreviewWidget::QuickScenePreviewWidget(QuickInspectorInterface *inspec
 
     m_toolBar.toolbarWidget->addAction(zoomOutAction());
     m_toolBar.zoomCombobox = new QComboBox(this);
+    // macOS and some platforms expect to use *small* controls in such small toolbar
+    m_toolBar.zoomCombobox->setAttribute(Qt::WA_MacSmallSize);
     m_toolBar.zoomCombobox->setModel(zoomLevelModel());
     connect(m_toolBar.zoomCombobox, SIGNAL(currentIndexChanged(int)), this,
             SLOT(setZoomLevel(int)));
