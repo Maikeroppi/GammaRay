@@ -52,12 +52,8 @@ set(gammaray_srcs
   remoteviewserver.cpp
 
   tools/metatypebrowser/metatypesmodel.cpp
-  tools/localeinspector/localemodel.cpp
-  tools/localeinspector/localedataaccessor.cpp
-  tools/localeinspector/localeaccessormodel.cpp
   tools/messagehandler/messagehandler.cpp
   tools/messagehandler/messagemodel.cpp
-  tools/localeinspector/localeinspector.cpp
   tools/metaobjectbrowser/metaobjectbrowser.cpp
   tools/metatypebrowser/metatypebrowser.cpp
   tools/objectinspector/objectinspector.cpp
